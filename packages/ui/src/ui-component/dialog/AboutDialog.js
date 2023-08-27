@@ -60,9 +60,9 @@ const AboutDialog = ({ show, onCancel }) => {
                         <Table aria-label='simple table'>
                             <TableHead>
                                 <TableRow>
-                                    <TableCell>Current Version</TableCell>
-                                    <TableCell>Latest Version</TableCell>
-                                    <TableCell>Published At</TableCell>
+                                    <TableCell>Current Version1.3.4</TableCell>
+                                    <TableCell>Latest Version1.3.4</TableCell>
+                                    <TableCell>Published At convosuite.com</TableCell>
                                 </TableRow>
                             </TableHead>
                             <TableBody>
