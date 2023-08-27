@@ -685,7 +685,7 @@ export class App {
                 }
                 templates.push(template)
             })
-            const FlowiseDocsQnA = templates.find((tmp) => tmp.name === 'Flowise Docs QnA')
+            const FlowiseDocsQnA = templates.find((tmp) => tmp.name === 'Convosuite Docs QnA')
             const FlowiseDocsQnAIndex = templates.findIndex((tmp) => tmp.name === 'Flowise Docs QnA')
             if (FlowiseDocsQnA && FlowiseDocsQnAIndex > 0) {
                 templates.splice(FlowiseDocsQnAIndex, 1)
